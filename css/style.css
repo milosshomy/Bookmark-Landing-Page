@@ -1,0 +1,45 @@
+.logo.mobile,
+.footer-logo {
+  filter: invert(1) brightness(100);
+}
+
+nav.open {
+  transform: translate(0);
+}
+
+#hamburger {
+  content: url(../img/icon-hamburger.svg);
+}
+
+#hamburger.close {
+  content: url(../img/icon-close.svg);
+}
+
+.active {
+  border-bottom: 5px solid hsl(0, 94%, 66%) !important;
+  color: hsl(229, 31%, 21%) !important;
+  font-weight: 500 !important;
+}
+
+#faq .hidden.add {
+  display: block !important;
+}
+
+#faq img:hover {
+  filter: invert(56%) sepia(20%) saturate(7170%) hue-rotate(327deg)
+    brightness(100%) contrast(93%);
+}
+
+#faq img.rotate {
+  rotate: 180deg;
+  transition: 200ms ease-in-out;
+}
+
+#success-icon.valid {
+  display: block;
+}
+
+#error-container.invalid,
+#error-icon.invalid {
+  display: block;
+}
