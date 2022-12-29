@@ -11,7 +11,6 @@ const errorIcon = document.getElementById("error-icon");
 const successIcon = document.getElementById("success-icon");
 const errorContainer = document.getElementById("error-container");
 const submitBtn = document.getElementById("submit-btn");
-const emailBox = document.querySelector(".email-box");
 
 /* Open menu */
 
